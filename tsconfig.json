@@ -1,0 +1,33 @@
+{
+   "compilerOptions": {
+      "lib": [
+         "ES2021"
+      ],
+      "moduleResolution": "Node",
+      "target": "ES5",
+      //  "target": "ES6",
+      "sourceMap": true,
+      "outDir": "build",
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "strict": true
+      // "paths": {
+      //    "@/application/*": [
+      //       "./src/application/*"
+      //    ],
+      //    "@/domain/*": [
+      //       "./src/domain/*"
+      //    ],
+      //    "@/driven-adapters/*": [
+      //       "./src/infrastructure/driven-adapters/*"
+      //    ],
+      //    "@/entry-points/*": [
+      //       "./src/infrastructure/entry-points/*"
+      //    ],
+      // }
+   },
+   "include": [
+      "src/**/*",
+      "prisma/zod"
+   ]
+}

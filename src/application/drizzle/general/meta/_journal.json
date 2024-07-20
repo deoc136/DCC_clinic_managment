@@ -1,0 +1,13 @@
+{
+  "version": "5",
+  "dialect": "pg",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1706821842375,
+      "tag": "0000_dusty_mentallo",
+      "breakpoints": true
+    }
+  ]
+}
